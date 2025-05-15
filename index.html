@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <title>07</title>
+</head>
+<body>
+    <table border="1" cellspacing="0" cellpadding="4" style="font-family: Arial, Helvetica, sans-serif; width: 55%;">
+        <tr>
+            <th colspan="6" align="center" bgcolor="#9BC2E6">INVENTORY SYSTEMS</th>
+        </tr>  
+        <tr bgcolor="#D9D9D9">
+            <th>ID</th>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th>Supplier</th>
+            <th>Date</th>
+            <th>Image</th>
+        </tr>
+        <tr>
+            <td align="center">10001</td>
+            <td>Boy Bawang Adobo (pc)</td>
+            <td align="center">1000</td>
+            <th rowspan="8" align="center" bgcolor="#FFD966">KSK</th>
+            <td rowspan="2" align="center">5/14/2019</td>
+            <td rowspan="8"><img src="download.jfif" height="200px" width="200px"></td>
+        </tr>
+        <tr>
+            <td align="center">10002</td>
+            <td>Boy Bawang Adobo (pack)</td>
+            <td align="center">200</td>
+        </tr>
+        <tr bgcolor="#D9D9D9">
+            <td align="center">10003</td>
+            <td>Boy Bawang Garlic (pc)</td>
+            <td align="center">3000</td>
+            <td rowspan="2" align="center">5/15/2019</td>
+        </tr>
+        <tr bgcolor="#D9D9D9">
+            <td align="center">10004</td>
+            <td>Boy Bawang Garlic (pack)</td>
+            <td align="center" style="color: red;">150</td>
+        </tr>
+        <tr>
+            <td align="center">10005</td>
+            <td>Boy Bawang Spicy (pc)</td>
+            <td align="center">4000</td>
+            <td rowspan="2" align="center">5/16/2019</td>
+        </tr>
+        <tr>
+            <td align="center">10006</td>
+            <td>Boy Bawang Spicy (pack)</td>
+            <td align="center">240</td>
+        </tr>
+        <tr bgcolor="#D9D9D9">
+            <td align="center">10007</td>
+            <td>Boy Bawang BBQ (pc)</td>
+            <td align="center">3000</td>
+            <td rowspan="2" align="center">5/17/2019</td>
+        </tr>
+        <tr bgcolor="#D9D9D9">
+            <td align="center">10008</td>
+            <td>Boy Bawang BBQ (pack)</td>
+            <td align="center">210</td>
+        </tr>
+    </table>
+
+    <form style="font-family: 'Times New Roman', Times, serif; margin-top: 40px;">
+        <div style="margin-bottom: 12px;">
+         <label for="name" style="display: block; margin-bottom: 4px;">Your Name*</label>
+         <input type="text" id="name" name="name" required style="width: 250px; background-color: #f8f8f8; font-size: 14px; border: 1px solid #ccc;">
+        </div>
+        <div style="margin-bottom: 12px;">
+         <label for="email" style="display: block; margin-bottom: 4px;">Email*</label>
+         <input type="email" id="email" name="email" required style="width: 280px; background-color: #f8f8f8;  font-size: 14px; border: 1px solid #ccc;">
+        </div>
+        <div style="margin-bottom: 12px;">
+         <label for="contact" style="display: block; margin-bottom: 4px;">Contact No.*</label>
+         <input type="text" id="contact" name="contact" required style="width: 200px; background-color: #f8f8f8; font-size: 14px; border: 1px solid #ccc;">
+        </div>
+        <div style="margin-bottom: 12px;">
+         <label for="message" style="display: block; margin-bottom: 4px;">Message</label>
+         <textarea id="message" name="message" style="width: 400px; background-color: #f8f8f8; height: 100px; font-size: 14px; border: 1px solid #ccc;"></textarea>
+        </div>
+        <p style="font-size: 12px; color: #000000; margin-top: 6px;">required field*</p>
+        <button type="submit" style="margin-top: 10px; background-color: #85afd1; padding: 6px 20px; border: none; color: #333;">Submit</button>
+    </form>
+</body>
+</html>
